@@ -1,0 +1,192 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display:none;
+}
+body{
+    background-image: url(images/background-design.png);
+    background-size:contain;
+    background-repeat: repeat;
+}
+li a{
+    text-decoration:None;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(98, 184, 196);
+    
+}
+i{
+    font-size: 20px;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.img{
+    height: 100px;
+    padding: 5px;
+    margin: 4px 0px
+}
+
+.img1{
+    height: 75px;
+}
+
+header{
+    display: flex;
+    position:fixed;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(images/Medoc-Banner.png);
+    z-index: 500;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 10px gray;
+    /* border: 2px solid #36878c; */
+}
+
+.fa-solid{
+    padding:0px 3px;
+}
+
+.fa-brands .fa-product-hunt{
+    padding:0px 3px;
+}
+
+.navbar{
+    list-style: none;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.navbar li a{
+    transition: all 0.3s ease 0s;
+    padding: 8px;
+    border-radius: 17px;
+}
+
+.navbar li a:hover{
+    background-color: #6fa6aa;
+    color:#144a4d;
+    
+    
+}
+
+.container{
+    /* position:absolute; */
+    width:100%;
+    display:flex;
+    overflow: auto;
+    margin: 20px;
+    color: rgb(51, 20, 20);
+}
+
+.container section{
+    min-width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    padding: 12px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    box-shadow: 1px 1px 15px gray;
+    /* zoom: 3% */
+}
+.container section:hover{
+    transform: scale(1.07);
+    box-shadow: 4px 4px 15px gray;
+}
+.container section .content{
+    padding:10px;
+    margin:8px;
+    text-align: center;
+}
+
+.container section .content h3{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom:7px;
+    color: #db74a5;
+}
+
+.fa-solid .fa-user-doctor{
+    font-size: 5rem;
+}
+
+.intro{
+    width: 100%;
+    height:50vh;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color:rgb(98, 184, 196);
+    transition: all 1s ease-out;
+}
+.intro-text{
+    padding:50px
+}
+
+.intro:hover{
+    font-size: 24px;
+}
+
+.m-content{
+    max-width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+a{
+    color:black
+}
+
+footer{
+    background-color: #ecc2c1;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    color:rgb(51, 20, 20)
+}
+.foot-container{
+    display: grid;
+    grid-template-columns: 2fr 0.7fr 0.7fr;
+}
+.more-updates .privacy-policy{
+    font-size: 18px;
+    
+}
+.privacy-policy li a{
+    text-decoration: none;
+    color:rgb(51, 20, 20);
+    font-size: inherit;
+}
+
+.fa-brands{
+    padding:2px 10px 0px 0px
+}
+
+#heading{
+    align-items: center;
+    text-align: center;
+    margin:4vh;
+    font-size: 40;
+    color: rgb(98, 184, 196);
+}
+
+.pro-icons{
+    height: 12vh;
+    margin:3px
+}
